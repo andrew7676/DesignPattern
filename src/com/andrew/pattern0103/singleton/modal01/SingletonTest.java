@@ -15,6 +15,6 @@ public class SingletonTest {
 	private SingletonTest(){};
 	
 	public static SingletonTest getInstance() {
-		return instance;
+		return null;
 	}
 }
