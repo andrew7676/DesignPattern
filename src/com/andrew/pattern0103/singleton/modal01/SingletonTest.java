@@ -1,9 +1,9 @@
 package com.andrew.pattern0103.singleton.modal01;
 
 /**
- * 1.¶öººÊ½µ¥ÀıÄ£Ê½
- * Ïß³Ì°²È«
- * ¶öººÊ½µ¥ÀıÊÇÖ¸ÔÚ·½·¨µ÷ÓÃÇ°£¬ÊµÀı¾ÍÒÑ¾­´´½¨ºÃÁË¡£
+ * 1.é¥¿æ±‰å¼å•ä¾‹æ¨¡å¼
+ * çº¿ç¨‹å®‰å…¨
+ * é¥¿æ±‰å¼å•ä¾‹æ˜¯æŒ‡åœ¨æ–¹æ³•è°ƒç”¨å‰ï¼Œå®ä¾‹å°±å·²ç»åˆ›å»ºå¥½äº†ã€‚
  * 
  * @author andrew
  * @date 2018/04/23
@@ -15,6 +15,6 @@ public class SingletonTest {
 	private SingletonTest(){};
 	
 	public static SingletonTest getInstance() {
-		return null;
+		return instance;
 	}
 }
